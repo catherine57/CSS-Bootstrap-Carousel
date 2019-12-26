@@ -1,10 +1,11 @@
 <! DOCTYPE html>
-<html>
+<html lang="fr">
 <!-- site http://creersonsiteweb.net/page-bootstrap-carousel -->
 <!-- file:///C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/CSS%20Bootstrap%20Carousel/index.html#my_carousel -->
 	<head>
 		<title>creer un carrousel avec bootstrap il faut jquery</title>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		 <!-- Bootstrap CSS -->
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,45 +22,48 @@
 
 	<body>
 		<div id="my_carousel" class="carousel slide" data-ride="carousel">
-	<!-- Bulles -->
-	<ol class="carousel-indicators">
-		<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-		<li data-target="#my_carousel" data-slide-to="1"></li>
-		<li data-target="#my_carousel" data-slide-to="2"></li>
-	</ol>
-	<!-- Slides -->
-	<div class="carousel-inner">
-		<!-- Page 1 -->
-		<div class="item active">  
-			<div class="carousel-page">
-				<img src="img1.jpg" class="img-responsive" style="margin:0px auto;" />
-			</div> 
-			<div class="carousel-caption">Page 1 de présentation</div>
+		<!-- Infos bulles -->
+		<ol class="carousel-indicators">
+			<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#my_carousel" data-slide-to="1"></li>
+			<li data-target="#my_carousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Slides -->
+		<div class="carousel-inner" >
+			<!-- Page 1 -->
+			<div class="item active" >  
+				<div class="carousel-page" >
+					<img src="img1.jpg" class="img-responsive " 
+					style="margin:10px auto;" />
+				</div> 
+				<div class="carousel-caption" >page 1 </div>
 			</div>   
-		<!-- Page 2 -->
-		<div class="item"> 
-			<div class="carousel-page"><img src="img2.jpg" class="img-responsive img-rounded" 
-										style="margin:0px auto;"  /></div> 
-			<div class="carousel-caption">Page 2 de présentation</div>
+			<!-- Page 2 -->
+			<div class="item"> 
+				<div class="carousel-page">
+					<img src="img2.jpg" class="img-responsive img-rounded" 
+					style="margin:10px auto;"  /></div> 
+				<div class="carousel-caption">page 2 </div>
 			</div>  
-		<!-- Page 3 -->
-		<div class="item">  
-			<div class="carousel-page">
-				<img src="img3.jpg" class="img-responsive img-rounded" 
-				style="margin:0px auto;max-height:100%;"  />
-			</div>  
-			<div class="carousel-caption">Page 3 de présentation</div>
+			<!-- Page 3 -->
+			<div class="item">  
+				<div class="carousel-page">
+					<img src="img3.jpg" class="img-responsive img-rounded" 
+					style="margin:10px auto; max-height:100%;"  />
+				</div>  
+				<div class="carousel-caption">page 3 </div>
 			</div>     
 		</div>
-	<!-- Contrôles -->
-	<a class="left carousel-control" href="#my_carousel" data-slide="prev">
-	<span class="glyphicon glyphicon-chevron-left"></span>
-	</a>
-	<a class="right carousel-control" href="#my_carousel" data-slide="next">
-	<span class="glyphicon glyphicon-chevron-right"></span>
-	</a>
+		<!-- Fléches de contrôle -->
+		<a class="left carousel-control" href="#my_carousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+
+		<a class="right carousel-control" href="#my_carousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
 	</div>
-	<h2>Carousel !!!!!</h2>
+	<h2 style="text-align: center;">Carousel bootstrap-3.3.7</h2>
 	 <!-- Bootstrap et Jquery 
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

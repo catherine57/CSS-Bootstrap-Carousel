@@ -1,0 +1,7 @@
+# ligne démarrant par  `#` est un commentaire.
+
+# Ignore le fichier  'file.ext'
+lis-moi.txt
+
+# Ignore le dossier   .idea/
+ 
