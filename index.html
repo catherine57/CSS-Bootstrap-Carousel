@@ -2,12 +2,14 @@
 <html lang="fr">
 
 	<head>
-		<title>creer un carrousel avec bootstrap et jquery</title>
+		<title>carrousel avec bootstrap </title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		 <!-- Bootstrap CSS -->
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<link href="css/media.css" rel="stylesheet" type="text/css">
 		
 		<style>
 			.carousel-page 	{
@@ -16,11 +18,16 @@
 				background-color:#5f666d;
 				color:white;
 			}
+			.img-responsive{
+				margin:20px auto; width: 50%; height: 80%; padding-top: 2%;
+			}
 		</style>
 	</head>
 
 	<body>
+		
 		<div id="my_carousel" class="carousel slide" data-ride="carousel">
+		<h1 style="text-align: center;  ">Bienvenue sur le carousel</h1>	
 		<!-- Infos bulles -->
 		<ol class="carousel-indicators">
 			<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
@@ -32,24 +39,19 @@
 			<!-- Page 1 -->
 			<div class="item active" >  
 				<div class="carousel-page" >
-					<img src="img1.jpg" class="img-responsive " 
-					style="margin:10px auto;" />
-				</div> 
+					<img src="img1.jpg" class="img-responsive img-circle" /></div> 
 				<div class="carousel-caption" >page 1 </div>
 			</div>   
 			<!-- Page 2 -->
 			<div class="item"> 
 				<div class="carousel-page">
-					<img src="img2.jpg" class="img-responsive img-rounded" 
-					style="margin:10px auto;"  /></div> 
+					<img src="img2.jpg" class="img-responsive img-rounded" /></div> 
 				<div class="carousel-caption">page 2 </div>
 			</div>  
 			<!-- Page 3 -->
 			<div class="item">  
 				<div class="carousel-page">
-					<img src="img3.jpg" class="img-responsive img-rounded" 
-					style="margin:10px auto; max-height:100%;"  />
-				</div>  
+					<img src="img3.jpg" class="img-responsive img-rounded" /></div>  
 				<div class="carousel-caption">page 3 </div>
 			</div>     
 		</div>
@@ -64,12 +66,19 @@
 	</div>
 	
 	<h2 style="text-align: center;">Carousel bootstrap-3.3.7</h2>
+	
+	<a href="https://github.com/catherine57/CSS-Bootstrap-Carousel"
+		class="bouton" style="margin-left: 40%;" >
+		<button class="btn btn-primary" >
+			Retour sur github
+		</button>
+	</a>
 
 	 <!-- Bootstrap et Jquery en fin de body pour chargement rapide
     =============================================================== -->
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-    
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 	<!-- Bootstrap js-->
 		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
