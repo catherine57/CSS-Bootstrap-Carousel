@@ -1,0 +1,19 @@
+/* -------------------
+----------------------
+    MEDIA QUERY  BOOTSTRAP
+----------------------
+------------------- */
+@media (max-width: 767px){
+
+    h1, h2{font-size: 2.5rem; color: #48bf5e;}
+    .item{height: 22em;}
+    .carousel-page img {height: 55%; padding-top: 3%;}
+}
+
+@media(min-width:768px){}
+@media(min-width:992px){
+    .carousel-page img{width: 40%;}
+}
+@media(min-width:1200px){
+    .bouton button{margin-left: 5%;}
+}
