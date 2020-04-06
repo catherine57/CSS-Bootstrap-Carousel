@@ -1,0 +1,45 @@
+INFO sur TUTO + path projet
+<!-- site http://creersonsiteweb.net/page-bootstrap-carousel -->
+<!-- file:///C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/CSS%20Bootstrap%20Carousel/index.html#my_carousel -->
+
+
+**  DEPOT  GITHUB ***
+
+INITIALISER
+
+code deposé sur Github  attention que site statique  javascript jquerry boostrap avec fichier index.html
+
+URL  web  https://catherine57.github.io/CSS-Bootstrap-Carousel/
+
+DEPOT  GITHUB
+URL Dépot github  https://github.com/catherine57/CSS-Bootstrap-Carousel 
+compte github catherine57 ic.....
+
+
+--- 1- creer un repository avec le nom du dossier du projet
+--- 2- Ouvrir Git bash here
+
+intisaliser depot git local exemple 
+	echo "# SiteBlog" >> README.md 
+	git init 
+	git add README.md 
+	
+ 
+ +  creer un fichier .gitignore    touch .gitignore       exemple    lis-moi.txt ou .idea/
+ +  git add .   ajout des dossier et fichiers
+    git commit -m "1er commit des dossier"
+    git remote add origin https://github.com/catherine57/SiteBlog.git
+    git push -u origin master
+
+
+--- 3- Hebergement 
+	dans depot github   aller dans setting  -> en bas Github page ->  branche master 
+	
+             acces au site par url 
+
+MODIFIER avec GIT
+
+
+2- git add .					ou  git commit -am'modification ...'
+3- git commit -m'modification ...'		    git push
+4- git push
